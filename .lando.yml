@@ -1,0 +1,10 @@
+name: eehmaruyama
+recipe: acquia
+config:
+  acli_version: latest
+  ah_application_uuid: 7c11ac20-a16d-49f1-b65c-192e15c54621
+  ah_site_group: eehmaruyama
+  php: '7.4'
+  xdebug: true
+  config:
+    php: .vscode/php.ini
