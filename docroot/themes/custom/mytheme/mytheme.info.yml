@@ -1,0 +1,16 @@
+name: My site studio sub theme
+type: theme
+description: "My theme using Site Studio minimal"
+core_version_requirement: ^8 || ^9
+base theme: cohesion_theme
+
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer
+  dx8_hidden: Site Studio hidden region
+
+cohesion: true
